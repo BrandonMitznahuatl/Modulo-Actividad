@@ -8,11 +8,13 @@ import { TableComponent } from './components/table/table.component';
 import { MatTableModule} from '@angular/material/table';
 import { MatButtonModule} from '@angular/material/button';
 import { MatTableExporterModule } from 'mat-table-exporter';
+import { PruebaComponent } from './prueba/prueba.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TableComponent
+    TableComponent,
+    PruebaComponent
   ],
   imports: [
     BrowserModule,
